@@ -1,0 +1,60 @@
+.Tm{
+    margin: 5rem;
+}
+.Theader{
+    text-align: center;
+}
+.Tc{
+    margin-top: 5rem;
+    margin-left: 22rem;
+    padding: 2rem;
+    border: 1px solid white;
+    width: 40rem;
+    height: 25rem;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+.Ti{
+   
+    width: 4rem;
+    height: 4rem;
+    border-radius: 3rem;
+   
+}
+.bbtn{
+    margin-top: 2rem;
+    text-align: center;
+}
+@media screen and (max-width:1280px){
+    .Tc{
+
+        margin: 0rem;
+        
+        width: 90%;
+        height: 60vh;
+
+    }
+    .Tm{
+        margin: 5rem 0rem 5rem 2.5rem;
+       
+    }
+
+}
+@media screen and (max-width:600px){
+    .Tc{
+
+        margin: 0rem;
+        width: 90%;
+        height: 60vh;
+
+    }
+    .Tm{
+        margin: 5rem 0rem 5rem 2.5rem;
+       
+    }
+
+}

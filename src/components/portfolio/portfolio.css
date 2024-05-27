@@ -1,0 +1,126 @@
+.m{ 
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+.r{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:3rem
+    
+}
+.each{
+  width: 25%;
+  padding: 1rem;
+  height: 45%;
+  border: 1px solid  var(--color-primary);
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: row;
+  gap:1rem;
+  flex-wrap: wrap;
+  border-radius: 1.5rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}   
+.each:hover{
+    transform: scale(1.3,1.1);
+     
+    background-color: #1f1f38;
+   
+}
+.btnn{
+    width: 3rem;
+    height: 1rem;
+    background-color: white;
+    border-radius: 5px;
+}
+.subeach{
+    
+    border: 1px solid white;
+    border-radius: 1rem;
+    width: 100%;
+    height: 60%;
+}
+.head{
+    text-align: center;
+}
+.top{
+    margin-top: 3rem;
+}
+.imgg{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width:10px) {
+    .top{
+     padding-top: 3rem;
+       
+    }
+    .m{ 
+        padding-top: 0px;
+        margin-top: 3rem;
+        padding: 1rem;
+        width: 90%;
+        height: 60rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:1rem;
+       
+    }
+    .each{
+        width: 35vh;
+        height: 14rem;
+        border: 1px solid  var(--color-primary);
+
+        border-radius: 1.5rem;
+        margin-left: 2rem;
+        
+        
+      }
+      
+ 
+      .r{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    
+}
+@media screen and (max-width:800px) {
+    .m{ 
+        
+        height: 66rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .subeach{
+        width:80%;
+        height: 42%;
+    }
+    .each{
+        
+        width:80%;
+        height: auto;
+        
+        
+      }
+
+     
+    
+}

@@ -1,0 +1,38 @@
+.FP{
+    background-color: var( --color-primary);
+    padding-top: 2rem;
+  
+}
+.FCenter{
+    
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.Fnav{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    
+
+}
+.Fnavc{
+    width: 100%;
+    height: 5rem;
+   padding-left: 30rem;
+}
+@media screen and (max-width:1280px) {
+    .Fnavc{
+        width: 100%;
+        height: 5rem;
+       padding-left: 10rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .Fnavc{
+        width: 100%;
+        height: 5rem;
+       padding-left: 10rem;
+    }
+}
